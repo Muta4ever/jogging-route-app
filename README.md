@@ -1,16 +1,26 @@
-# React + Vite
+# Jogging Route Generator 🏃‍♂️🗺️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app that generates custom jogging and walking routes using Google Maps.  
+Choose a starting point, distance, and route type (loop or point-to-point), and the app creates a route that closely matches your target distance — complete with turn-by-turn directions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📍 **Start & End Location Search** (Google Places Autocomplete)
+- 🔁 **Loop Routes** (start and end at the same location)
+- ➡️ **Point-to-Point Routes**
+- 📏 Distance selection in **kilometers or miles**
+- 🧭 Smart route generation to match target distance
+- 🗺️ Interactive Google Map
+- 📋 Optional **turn-by-turn directions panel**
+- 🚶 Optimized for walking/jogging routes (avoids highways)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (with hooks)
+- **Vite**
+- **Google Maps JavaScript API**
+- **Google Places API**
+- **Tailwind CSS**
+- **Lucide React Icons**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
